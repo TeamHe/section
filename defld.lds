@@ -165,13 +165,6 @@ SECTIONS
   .data1          : { *(.data1) }
   _edata = .; PROVIDE (edata = .);
   . = .;
-  _myown_start = .;
-  .myyown 		  :
-  {
-	  *(.myown)
-  } = 0x90000000;
-  _myown_end = .;
-  code_segment 	:{*(code_segment)}
   __bss_start = .;
   .bss            :
   {

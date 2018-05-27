@@ -11,20 +11,20 @@ extern myown_call _myown_end;
 
 void func3()
 {
-	printf("this is section 3\n");
+	printf("\tthis is section 3\n");
 }
 
 func_init(func3);
 
 void func2()
 {
-	printf("this is section 2\n");
+	printf("\tthis is section 2\n");
 }
 
 func_init(func2);
 void func1()
 {
-	printf("this is section 1\n");
+	printf("\tthis is section 1\n");
 }
 
 func_init(func1);
